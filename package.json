@@ -1,0 +1,22 @@
+{
+  "name": "chmodx",
+  "version": "1.0.0",
+  "description": "Cross platform command line utility for setting the executable bits on files.",
+  "license": "MIT",
+  "repository": "git@github.com:ChrisAckerman/chmodx.git",
+  "author": "Chris Ackerman <chris@topher.land>",
+  "bin": {
+    "chmodx": "./index.js"
+  },
+  "scripts": {
+    "start": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "globby": "^11.0.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 120
+  }
+}
